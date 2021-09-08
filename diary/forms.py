@@ -1,4 +1,5 @@
 from django import forms
+from django.contrib import messages
 from django.core.mail import EmailMessage
 
 class InquiryForm(forms.Form):
